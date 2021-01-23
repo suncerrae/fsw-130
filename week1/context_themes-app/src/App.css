@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  padding: 35px;
+}
+
+footer {
+  padding: 35px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  margin: 35px;
+}
+
+.main-wrapper {
+  text-align: center;
+}
+
+.footer-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.dark-theme {
+  background-color: #251c1c;
+  color: whitesmoke;
+}
+
+.light-theme {
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.light-background {
+  background-color: rgb(212, 80, 100);
+  position: absolute;
+  height: 85%;
+  width: 100%;
+  text-align: center;
+}
+
+.dark-background {
+  background-color: dimgray;
+  position: absolute;
+  height: 85%;
+  width: 100%;
+  text-align: center;
+}
