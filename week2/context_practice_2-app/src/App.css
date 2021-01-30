@@ -1,0 +1,13 @@
+* {
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  background: url("https://filmcycle.files.wordpress.com/2012/09/curtains-2195306_std.png?w=768&h=569");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(250, 248, 248);
+}

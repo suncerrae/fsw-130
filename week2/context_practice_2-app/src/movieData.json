@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "The Goonies",
+        "rated": "PG"
+    },
+    {
+        "id": 2,
+        "title": "DR. DOLITTLE",
+        "rated": "PG"
+    },
+    {
+        "id": 3,
+        "title": "Annie",
+        "rated": "PG"
+    },
+    {
+        "id": 4,
+        "title": "Daddy Day Care",
+        "rated": "PG"
+    },
+    {
+        "id": 5,
+        "title": "The Karate Kid",
+        "rated": "PG-13"
+    },
+    {
+        "id": 6,
+        "title": "The Hunger Games",
+        "rated": "PG-13"
+    },
+    {
+        "id": 7,
+        "title": "Finding Nemo",
+        "rated": "G"
+    },
+    {
+        "id": 8,
+        "title": "Toy Story",
+        "rated": "G"
+    }
+]
