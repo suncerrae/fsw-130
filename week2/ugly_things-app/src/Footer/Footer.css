@@ -1,0 +1,29 @@
+.footer{
+    grid-column: 1/-1;
+    grid-row: 4;
+    padding: 3% 0;
+    margin-top: .5rem;    
+    text-align: center;    
+    font-weight: bold;    
+    background-color: rgba(28, 172, 59, 0.788);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .footer{
+        height: 10vh;
+        padding: 3vh 0; 
+        font-size: 1rem;      
+    }  
+ }
+ @media only screen and (min-width: 501px) and (max-width: 769px){
+    header{
+        height: 8vh;
+        padding: 2vh;        
+    }
+    .header-message{
+        font-size: 3rem;
+    } 
+ }
