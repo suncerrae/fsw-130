@@ -1,0 +1,16 @@
+.navbar-container {
+    background-color: black;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.navbar-links-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}

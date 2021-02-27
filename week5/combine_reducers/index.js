@@ -3,23 +3,23 @@ const movies = require("./redux/movies");
 const tvShows = require("./redux/tvShows");
 
 //ADD MOVIE
-store.dispatch(movies.addMovie("Fight Club"));
-store.dispatch(movies.addMovie("Red"));
-store.dispatch(movies.addMovie("Push"));
-store.dispatch(movies.addMovie("Bio-Dome"));
+store.dispatch(movies.addMovie("Home Alone"));
+store.dispatch(movies.addMovie("Over the moon"));
+store.dispatch(movies.addMovie("Soul"));
+store.dispatch(movies.addMovie("The Wolf"));
 
 //ADD TV SHOW
-store.dispatch(tvShows.addTvShow("The Good Witch"));
-store.dispatch(tvShows.addTvShow("The Universe"));
-store.dispatch(tvShows.addTvShow("Ancient Aliens"));
-store.dispatch(tvShows.addTvShow("House"))
+store.dispatch(tvShows.addTvShow("Full House"));
+store.dispatch(tvShows.addTvShow("Shake it up"));
+store.dispatch(tvShows.addTvShow("Men In Black"));
+store.dispatch(tvShows.addTvShow("Saved By the Bell"))
 
 //REMOVE MOVIE
-store.dispatch(movies.removeMovie("Fight Club"));
-store.dispatch(movies.removeMovie("Push"));
+store.dispatch(movies.removeMovie("Over the moon"));
+store.dispatch(movies.removeMovie("The Wolf"));
 
 //REMOVE TV SHOW
-store.dispatch(tvShows.removeTvShow("The universe"));
+store.dispatch(tvShows.removeTvShow("Men in Black"));
 
 //GET ALL MOVIES
 store.dispatch(movies.getAllMovies());
